@@ -1,4 +1,4 @@
-name: Test Workflow
+name: Daily Update
 
 on: [push]
 jobs:
