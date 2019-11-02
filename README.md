@@ -1,24 +1,14 @@
 # Qt Installer Package Lister
 
-## Project setup
+This webapp lists available Qt Installer packages and their identifiers, hosted at [WIP](#).
+It can be used to select a list of packages to install using [Install Qt Dev Action](https://github.com/Mercotui/install-qt-dev-action).
+
+## Vue Project Commands
+
+Vuecli created the following commands to manage this project:
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
 npm run build
-```
-
-### Lints and fixes files
-```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
