@@ -68,12 +68,10 @@ function prepareInstaller(os, installer_path) {
 function runInstaller(os, installer_path) {
   return new Promise((resolve, reject) => {
     console.log('Running installer');
-    // core.startGroup('Running installer');
     var child;
     switch (os) {
       case 'linux':
-      child = child_process.spawn('./' + installer_path, ['--verbose', '--script', __dirname+'/installer_control_script.qs']);
-        // child = child_process.spawn('xvfb-run', ['./' + installer_path, '--verbose', '--script', __dirname+'/installer_control_script.qs']);
+        child = child_process.spawn('xvfb-run', ['./' + installer_path, '--verbose', '--script', __dirname+'/installer_control_script.qs']);
         break;
       case 'darwin':
         child = child_process.spawn('./' + installer_path, ['--verbose', '--script', __dirname+'/installer_control_script.qs']);
@@ -97,7 +95,6 @@ function runInstaller(os, installer_path) {
 
     child.on('close', ()=>{
       resolve(data_line);
-      // core.endGroup();
     });
     child.on('error', reject);
   });
@@ -112,7 +109,7 @@ function parseOutput(output){
 function savePackageList(package_array) {
   const writeFile = util.promisify(fs.writeFile);
 
-  console.log('Save Package List');
+  console.log('Save Package List to qt_package_list.json');
   const date_string = new Date().toJSON();
   const package_list = {date: date_string, packages:package_array};
   const package_list_json = JSON.stringify(package_list, null, 2);
