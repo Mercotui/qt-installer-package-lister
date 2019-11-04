@@ -12,5 +12,14 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - name: Npm Install
+      run: npm install
     - name: Get Package List
-      run: node ./package_scraper/list_packages.js
+      run: npm run scrape
+    - name: Commit and Push Packagelist
+      uses: github-actions-x/commit@v2.2
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'release'
+        commit-message: 'Automated Daily List Update'
+        files: qt_package_list.json
