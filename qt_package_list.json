@@ -1,0 +1,2010 @@
+{
+  "date": "2019-11-05T12:07:56.844Z",
+  "packages": [
+    {
+      "dependencies": {
+        "0": "qt.license.thirdparty",
+        "1": "qt.license.lgpl"
+      },
+      "displayName": "Qt",
+      "name": "qt"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc",
+        "1": "qt.qt5.5125.examples",
+        "2": "qt.license.thirdparty",
+        "3": "qt.license.lgpl"
+      },
+      "displayName": "Qt 5.12.5",
+      "name": "qt.qt5.5125"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc",
+        "1": "qt.qt5.5124.examples",
+        "2": "qt.license.thirdparty",
+        "3": "qt.license.lgpl"
+      },
+      "displayName": "Qt 5.12.4",
+      "name": "qt.qt5.5124"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc",
+        "1": "qt.qt5.5123.examples",
+        "2": "qt.license.thirdparty",
+        "3": "qt.license.lgpl"
+      },
+      "displayName": "Qt 5.12.3",
+      "name": "qt.qt5.5123"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc",
+        "1": "qt.qt5.5122.examples",
+        "2": "qt.license.thirdparty",
+        "3": "qt.license.lgpl"
+      },
+      "displayName": "Qt 5.12.2",
+      "name": "qt.qt5.5122"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc",
+        "1": "qt.qt5.598.examples",
+        "2": "qt.license.thirdparty",
+        "3": "qt.license.lgpl"
+      },
+      "displayName": "Qt 5.9.8",
+      "name": "qt.qt5.598"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Developer and Designer Tools",
+      "name": "qt.tools"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Installer Changelog",
+      "name": "qt.installer.changelog"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt 3rd Party Licenses",
+      "name": "qt.license.thirdparty"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt License LGPL",
+      "name": "qt.license.lgpl"
+    },
+    {
+      "dependencies": {},
+      "displayName": "License GPL3-EXCEPT",
+      "name": "qt.license.gplv3except"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Python Software Foundation License Version 2",
+      "name": "qt.license.python"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5125.doc",
+        "2": "qt.qt5.5125.examples"
+      },
+      "displayName": "Desktop gcc 64-bit",
+      "name": "qt.qt5.5125.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5125.doc",
+        "2": "qt.qt5.5125.examples"
+      },
+      "displayName": "Android x86",
+      "name": "qt.qt5.5125.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5125.doc",
+        "2": "qt.qt5.5125.examples"
+      },
+      "displayName": "Android ARM64-v8a",
+      "name": "qt.qt5.5125.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5125.doc",
+        "2": "qt.qt5.5125.examples"
+      },
+      "displayName": "Android ARMv7",
+      "name": "qt.qt5.5125.android_armv7"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Sources",
+      "name": "qt.qt5.5125.src"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc.qtcharts",
+        "1": "qt.qt5.5125.examples.qtcharts"
+      },
+      "displayName": "Qt Charts",
+      "name": "qt.qt5.5125.qtcharts"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc.qtdatavis3d",
+        "1": "qt.qt5.5125.examples.qtdatavis3d"
+      },
+      "displayName": "Qt Data Visualization",
+      "name": "qt.qt5.5125.qtdatavis3d"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc.qtpurchasing",
+        "1": "qt.qt5.5125.examples.qtpurchasing"
+      },
+      "displayName": "Qt Purchasing",
+      "name": "qt.qt5.5125.qtpurchasing"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc.qtvirtualkeyboard",
+        "1": "qt.qt5.5125.examples.qtvirtualkeyboard"
+      },
+      "displayName": "Qt Virtual Keyboard",
+      "name": "qt.qt5.5125.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc.qtwebengine",
+        "1": "qt.qt5.5125.examples.qtwebengine"
+      },
+      "displayName": "Qt WebEngine",
+      "name": "qt.qt5.5125.qtwebengine"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc.qtnetworkauth",
+        "1": "qt.qt5.5125.examples.qtnetworkauth"
+      },
+      "displayName": "Qt Network Authorization",
+      "name": "qt.qt5.5125.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt WebGL Streaming Plugin",
+      "name": "qt.qt5.5125.qtwebglplugin"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.doc.qtscript",
+        "1": "qt.qt5.5125.examples.qtscript"
+      },
+      "displayName": "Qt Script (Deprecated)",
+      "name": "qt.qt5.5125.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Debug Information Files",
+      "name": "qt.qt5.5125.debug_info"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.5 Documentation",
+      "name": "qt.qt5.5125.doc"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.5 Examples",
+      "name": "qt.qt5.5125.examples"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_x86"
+      },
+      "displayName": "Qt Charts for Android x86",
+      "name": "qt.qt5.5125.qtcharts.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt Charts for gcc 64-bit",
+      "name": "qt.qt5.5125.qtcharts.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_armv7"
+      },
+      "displayName": "Qt Charts for Android ARMv7",
+      "name": "qt.qt5.5125.qtcharts.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_arm64_v8a"
+      },
+      "displayName": "Qt Charts for Android ARM64-v8a",
+      "name": "qt.qt5.5125.qtcharts.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_x86"
+      },
+      "displayName": "Qt Data Visualization for Android x86",
+      "name": "qt.qt5.5125.qtdatavis3d.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_armv7"
+      },
+      "displayName": "Qt Data Visualization for Android ARMv7",
+      "name": "qt.qt5.5125.qtdatavis3d.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_arm64_v8a"
+      },
+      "displayName": "Qt Data Visualization for Android ARM64-v8a",
+      "name": "qt.qt5.5125.qtdatavis3d.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt Data Visualization for gcc 64-bit",
+      "name": "qt.qt5.5125.qtdatavis3d.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_arm64_v8a"
+      },
+      "displayName": "Qt Purchasing for Android ARM64-v8a",
+      "name": "qt.qt5.5125.qtpurchasing.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_armv7"
+      },
+      "displayName": "Qt Purchasing for Android ARMv7",
+      "name": "qt.qt5.5125.qtpurchasing.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt Purchasing for gcc 64-bit",
+      "name": "qt.qt5.5125.qtpurchasing.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_x86"
+      },
+      "displayName": "Qt Purchasing for Android x86",
+      "name": "qt.qt5.5125.qtpurchasing.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt Virtual Keyboard for gcc 64-bit",
+      "name": "qt.qt5.5125.qtvirtualkeyboard.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt WebEngine for Desktop gcc 64-bit",
+      "name": "qt.qt5.5125.qtwebengine.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt Network Authorization for gcc 64-bit",
+      "name": "qt.qt5.5125.qtnetworkauth.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_armv7"
+      },
+      "displayName": "Qt Network Authorization for Android ARMv7",
+      "name": "qt.qt5.5125.qtnetworkauth.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_arm64_v8a"
+      },
+      "displayName": "Qt Network Authorization for Android ARM64-v8a",
+      "name": "qt.qt5.5125.qtnetworkauth.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_x86"
+      },
+      "displayName": "Qt Network Authorization for Android x86",
+      "name": "qt.qt5.5125.qtnetworkauth.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt WebGL Streaming Plugin for gcc 64-bit",
+      "name": "qt.qt5.5125.qtwebglplugin.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Qt Script for gcc 64-bit",
+      "name": "qt.qt5.5125.qtscript.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_x86"
+      },
+      "displayName": "Qt Script for Android x86",
+      "name": "qt.qt5.5125.qtscript.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_armv7"
+      },
+      "displayName": "Qt Script for Android ARMv7",
+      "name": "qt.qt5.5125.qtscript.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_arm64_v8a"
+      },
+      "displayName": "Qt Script for Android ARM64-v8a",
+      "name": "qt.qt5.5125.qtscript.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "Desktop gcc 64-bit Debug Information Files",
+      "name": "qt.qt5.5125.debug_info.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.5 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5125.doc.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.5 Deprecated components (QtScript)",
+      "name": "qt.qt5.5125.doc.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.5 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5125.doc.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for QtWebEngine",
+      "name": "qt.qt5.5125.doc.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5125.doc.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.5 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5125.doc.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.5 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5125.doc.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.5 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5125.examples.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5125.examples.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.5 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5125.examples.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.5 Deprecated components (QtScript)",
+      "name": "qt.qt5.5125.examples.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.5 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5125.examples.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for QtWebEngine",
+      "name": "qt.qt5.5125.examples.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.5 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5125.examples.qtdatavis3d"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5124.doc",
+        "2": "qt.qt5.5124.examples"
+      },
+      "displayName": "Desktop gcc 64-bit",
+      "name": "qt.qt5.5124.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5124.doc",
+        "2": "qt.qt5.5124.examples"
+      },
+      "displayName": "Android x86",
+      "name": "qt.qt5.5124.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5124.doc",
+        "2": "qt.qt5.5124.examples"
+      },
+      "displayName": "Android ARM64-v8a",
+      "name": "qt.qt5.5124.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5124.doc",
+        "2": "qt.qt5.5124.examples"
+      },
+      "displayName": "Android ARMv7",
+      "name": "qt.qt5.5124.android_armv7"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Sources",
+      "name": "qt.qt5.5124.src"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc.qtcharts",
+        "1": "qt.qt5.5124.examples.qtcharts"
+      },
+      "displayName": "Qt Charts",
+      "name": "qt.qt5.5124.qtcharts"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc.qtdatavis3d",
+        "1": "qt.qt5.5124.examples.qtdatavis3d"
+      },
+      "displayName": "Qt Data Visualization",
+      "name": "qt.qt5.5124.qtdatavis3d"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc.qtpurchasing",
+        "1": "qt.qt5.5124.examples.qtpurchasing"
+      },
+      "displayName": "Qt Purchasing",
+      "name": "qt.qt5.5124.qtpurchasing"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc.qtvirtualkeyboard",
+        "1": "qt.qt5.5124.examples.qtvirtualkeyboard"
+      },
+      "displayName": "Qt Virtual Keyboard",
+      "name": "qt.qt5.5124.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc.qtwebengine",
+        "1": "qt.qt5.5124.examples.qtwebengine"
+      },
+      "displayName": "Qt WebEngine",
+      "name": "qt.qt5.5124.qtwebengine"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc.qtnetworkauth",
+        "1": "qt.qt5.5124.examples.qtnetworkauth"
+      },
+      "displayName": "Qt Network Authorization",
+      "name": "qt.qt5.5124.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt WebGL Streaming Plugin",
+      "name": "qt.qt5.5124.qtwebglplugin"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.doc.qtscript",
+        "1": "qt.qt5.5124.examples.qtscript"
+      },
+      "displayName": "Qt Script (Deprecated)",
+      "name": "qt.qt5.5124.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Debug Information Files",
+      "name": "qt.qt5.5124.debug_info"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.4 Examples",
+      "name": "qt.qt5.5124.examples"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.4 Documentation",
+      "name": "qt.qt5.5124.doc"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_armv7"
+      },
+      "displayName": "Qt Charts for Android ARMv7",
+      "name": "qt.qt5.5124.qtcharts.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_x86"
+      },
+      "displayName": "Qt Charts for Android x86",
+      "name": "qt.qt5.5124.qtcharts.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt Charts for gcc 64-bit",
+      "name": "qt.qt5.5124.qtcharts.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_arm64_v8a"
+      },
+      "displayName": "Qt Charts for Android ARM64-v8a",
+      "name": "qt.qt5.5124.qtcharts.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_arm64_v8a"
+      },
+      "displayName": "Qt Data Visualization for Android ARM64-v8a",
+      "name": "qt.qt5.5124.qtdatavis3d.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_x86"
+      },
+      "displayName": "Qt Data Visualization for Android x86",
+      "name": "qt.qt5.5124.qtdatavis3d.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_armv7"
+      },
+      "displayName": "Qt Data Visualization for Android ARMv7",
+      "name": "qt.qt5.5124.qtdatavis3d.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt Data Visualization for gcc 64-bit",
+      "name": "qt.qt5.5124.qtdatavis3d.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_x86"
+      },
+      "displayName": "Qt Purchasing for Android x86",
+      "name": "qt.qt5.5124.qtpurchasing.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt Purchasing for gcc 64-bit",
+      "name": "qt.qt5.5124.qtpurchasing.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_arm64_v8a"
+      },
+      "displayName": "Qt Purchasing for Android ARM64-v8a",
+      "name": "qt.qt5.5124.qtpurchasing.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_armv7"
+      },
+      "displayName": "Qt Purchasing for Android ARMv7",
+      "name": "qt.qt5.5124.qtpurchasing.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt Virtual Keyboard for gcc 64-bit",
+      "name": "qt.qt5.5124.qtvirtualkeyboard.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt WebEngine for Desktop gcc 64-bit",
+      "name": "qt.qt5.5124.qtwebengine.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt Network Authorization for gcc 64-bit",
+      "name": "qt.qt5.5124.qtnetworkauth.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_x86"
+      },
+      "displayName": "Qt Network Authorization for Android x86",
+      "name": "qt.qt5.5124.qtnetworkauth.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_arm64_v8a"
+      },
+      "displayName": "Qt Network Authorization for Android ARM64-v8a",
+      "name": "qt.qt5.5124.qtnetworkauth.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_armv7"
+      },
+      "displayName": "Qt Network Authorization for Android ARMv7",
+      "name": "qt.qt5.5124.qtnetworkauth.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt WebGL Streaming Plugin for gcc 64-bit",
+      "name": "qt.qt5.5124.qtwebglplugin.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_x86"
+      },
+      "displayName": "Qt Script for Android x86",
+      "name": "qt.qt5.5124.qtscript.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_arm64_v8a"
+      },
+      "displayName": "Qt Script for Android ARM64-v8a",
+      "name": "qt.qt5.5124.qtscript.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Qt Script for gcc 64-bit",
+      "name": "qt.qt5.5124.qtscript.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.android_armv7"
+      },
+      "displayName": "Qt Script for Android ARMv7",
+      "name": "qt.qt5.5124.qtscript.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5124.gcc_64"
+      },
+      "displayName": "Desktop gcc 64-bit Debug Information Files",
+      "name": "qt.qt5.5124.debug_info.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.4 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5124.examples.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5124.examples.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.4 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5124.examples.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.4 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5124.examples.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.4 Deprecated components (QtScript)",
+      "name": "qt.qt5.5124.examples.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for QtWebEngine",
+      "name": "qt.qt5.5124.examples.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.4 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5124.examples.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.4 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5124.doc.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for QtWebEngine",
+      "name": "qt.qt5.5124.doc.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5124.doc.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.4 Deprecated components (QtScript)",
+      "name": "qt.qt5.5124.doc.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.4 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5124.doc.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.4 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5124.doc.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.4 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5124.doc.qtdatavis3d"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5123.doc",
+        "2": "qt.qt5.5123.examples"
+      },
+      "displayName": "Desktop gcc 64-bit",
+      "name": "qt.qt5.5123.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5123.doc",
+        "2": "qt.qt5.5123.examples"
+      },
+      "displayName": "Android x86",
+      "name": "qt.qt5.5123.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5123.doc",
+        "2": "qt.qt5.5123.examples"
+      },
+      "displayName": "Android ARM64-v8a",
+      "name": "qt.qt5.5123.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5123.doc",
+        "2": "qt.qt5.5123.examples"
+      },
+      "displayName": "Android ARMv7",
+      "name": "qt.qt5.5123.android_armv7"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Sources",
+      "name": "qt.qt5.5123.src"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc.qtcharts",
+        "1": "qt.qt5.5123.examples.qtcharts"
+      },
+      "displayName": "Qt Charts",
+      "name": "qt.qt5.5123.qtcharts"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc.qtdatavis3d",
+        "1": "qt.qt5.5123.examples.qtdatavis3d"
+      },
+      "displayName": "Qt Data Visualization",
+      "name": "qt.qt5.5123.qtdatavis3d"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc.qtpurchasing",
+        "1": "qt.qt5.5123.examples.qtpurchasing"
+      },
+      "displayName": "Qt Purchasing",
+      "name": "qt.qt5.5123.qtpurchasing"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc.qtvirtualkeyboard",
+        "1": "qt.qt5.5123.examples.qtvirtualkeyboard"
+      },
+      "displayName": "Qt Virtual Keyboard",
+      "name": "qt.qt5.5123.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc.qtwebengine",
+        "1": "qt.qt5.5123.examples.qtwebengine"
+      },
+      "displayName": "Qt WebEngine",
+      "name": "qt.qt5.5123.qtwebengine"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc.qtnetworkauth",
+        "1": "qt.qt5.5123.examples.qtnetworkauth"
+      },
+      "displayName": "Qt Network Authorization",
+      "name": "qt.qt5.5123.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt WebGL Streaming Plugin",
+      "name": "qt.qt5.5123.qtwebglplugin"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.doc.qtscript",
+        "1": "qt.qt5.5123.examples.qtscript"
+      },
+      "displayName": "Qt Script (Deprecated)",
+      "name": "qt.qt5.5123.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Debug Information Files",
+      "name": "qt.qt5.5123.debug_info"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.3 Documentation",
+      "name": "qt.qt5.5123.doc"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.3 Examples",
+      "name": "qt.qt5.5123.examples"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_arm64_v8a"
+      },
+      "displayName": "Qt Charts for Android ARM64-v8a",
+      "name": "qt.qt5.5123.qtcharts.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_armv7"
+      },
+      "displayName": "Qt Charts for Android ARMv7",
+      "name": "qt.qt5.5123.qtcharts.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt Charts for gcc 64-bit",
+      "name": "qt.qt5.5123.qtcharts.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_x86"
+      },
+      "displayName": "Qt Charts for Android x86",
+      "name": "qt.qt5.5123.qtcharts.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_x86"
+      },
+      "displayName": "Qt Data Visualization for Android x86",
+      "name": "qt.qt5.5123.qtdatavis3d.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_armv7"
+      },
+      "displayName": "Qt Data Visualization for Android ARMv7",
+      "name": "qt.qt5.5123.qtdatavis3d.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt Data Visualization for gcc 64-bit",
+      "name": "qt.qt5.5123.qtdatavis3d.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_arm64_v8a"
+      },
+      "displayName": "Qt Data Visualization for Android ARM64-v8a",
+      "name": "qt.qt5.5123.qtdatavis3d.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt Purchasing for gcc 64-bit",
+      "name": "qt.qt5.5123.qtpurchasing.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_armv7"
+      },
+      "displayName": "Qt Purchasing for Android ARMv7",
+      "name": "qt.qt5.5123.qtpurchasing.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_x86"
+      },
+      "displayName": "Qt Purchasing for Android x86",
+      "name": "qt.qt5.5123.qtpurchasing.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_arm64_v8a"
+      },
+      "displayName": "Qt Purchasing for Android ARM64-v8a",
+      "name": "qt.qt5.5123.qtpurchasing.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt Virtual Keyboard for gcc 64-bit",
+      "name": "qt.qt5.5123.qtvirtualkeyboard.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt WebEngine for Desktop gcc 64-bit",
+      "name": "qt.qt5.5123.qtwebengine.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_x86"
+      },
+      "displayName": "Qt Network Authorization for Android x86",
+      "name": "qt.qt5.5123.qtnetworkauth.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_armv7"
+      },
+      "displayName": "Qt Network Authorization for Android ARMv7",
+      "name": "qt.qt5.5123.qtnetworkauth.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt Network Authorization for gcc 64-bit",
+      "name": "qt.qt5.5123.qtnetworkauth.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_arm64_v8a"
+      },
+      "displayName": "Qt Network Authorization for Android ARM64-v8a",
+      "name": "qt.qt5.5123.qtnetworkauth.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt WebGL Streaming Plugin for gcc 64-bit",
+      "name": "qt.qt5.5123.qtwebglplugin.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_armv7"
+      },
+      "displayName": "Qt Script for Android ARMv7",
+      "name": "qt.qt5.5123.qtscript.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Qt Script for gcc 64-bit",
+      "name": "qt.qt5.5123.qtscript.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_x86"
+      },
+      "displayName": "Qt Script for Android x86",
+      "name": "qt.qt5.5123.qtscript.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.android_arm64_v8a"
+      },
+      "displayName": "Qt Script for Android ARM64-v8a",
+      "name": "qt.qt5.5123.qtscript.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5123.gcc_64"
+      },
+      "displayName": "Desktop gcc 64-bit Debug Information Files",
+      "name": "qt.qt5.5123.debug_info.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.3 Deprecated components (QtScript)",
+      "name": "qt.qt5.5123.doc.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.3 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5123.doc.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.3 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5123.doc.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.3 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5123.doc.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.3 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5123.doc.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for QtWebEngine",
+      "name": "qt.qt5.5123.doc.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5123.doc.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.3 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5123.examples.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.3 Deprecated components (QtScript)",
+      "name": "qt.qt5.5123.examples.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.3 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5123.examples.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5123.examples.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.3 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5123.examples.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.3 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5123.examples.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for QtWebEngine",
+      "name": "qt.qt5.5123.examples.qtwebengine"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5122.doc",
+        "2": "qt.qt5.5122.examples"
+      },
+      "displayName": "Desktop gcc 64-bit",
+      "name": "qt.qt5.5122.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5122.doc",
+        "2": "qt.qt5.5122.examples"
+      },
+      "displayName": "Android x86",
+      "name": "qt.qt5.5122.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5122.doc",
+        "2": "qt.qt5.5122.examples"
+      },
+      "displayName": "Android ARM64-v8a",
+      "name": "qt.qt5.5122.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.5122.doc",
+        "2": "qt.qt5.5122.examples"
+      },
+      "displayName": "Android ARMv7",
+      "name": "qt.qt5.5122.android_armv7"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Sources",
+      "name": "qt.qt5.5122.src"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc.qtcharts",
+        "1": "qt.qt5.5122.examples.qtcharts"
+      },
+      "displayName": "Qt Charts",
+      "name": "qt.qt5.5122.qtcharts"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc.qtdatavis3d",
+        "1": "qt.qt5.5122.examples.qtdatavis3d"
+      },
+      "displayName": "Qt Data Visualization",
+      "name": "qt.qt5.5122.qtdatavis3d"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc.qtpurchasing",
+        "1": "qt.qt5.5122.examples.qtpurchasing"
+      },
+      "displayName": "Qt Purchasing",
+      "name": "qt.qt5.5122.qtpurchasing"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc.qtvirtualkeyboard",
+        "1": "qt.qt5.5122.examples.qtvirtualkeyboard"
+      },
+      "displayName": "Qt Virtual Keyboard",
+      "name": "qt.qt5.5122.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc.qtwebengine",
+        "1": "qt.qt5.5122.examples.qtwebengine"
+      },
+      "displayName": "Qt WebEngine",
+      "name": "qt.qt5.5122.qtwebengine"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc.qtnetworkauth",
+        "1": "qt.qt5.5122.examples.qtnetworkauth"
+      },
+      "displayName": "Qt Network Authorization",
+      "name": "qt.qt5.5122.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt WebGL Streaming Plugin",
+      "name": "qt.qt5.5122.qtwebglplugin"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.doc.qtscript",
+        "1": "qt.qt5.5122.examples.qtscript"
+      },
+      "displayName": "Qt Script (Deprecated)",
+      "name": "qt.qt5.5122.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Debug Information Files",
+      "name": "qt.qt5.5122.debug_info"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.2 Documentation",
+      "name": "qt.qt5.5122.doc"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.12.2 Examples",
+      "name": "qt.qt5.5122.examples"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_arm64_v8a"
+      },
+      "displayName": "Qt Charts for Android ARM64-v8a",
+      "name": "qt.qt5.5122.qtcharts.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt Charts for gcc 64-bit",
+      "name": "qt.qt5.5122.qtcharts.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_armv7"
+      },
+      "displayName": "Qt Charts for Android ARMv7",
+      "name": "qt.qt5.5122.qtcharts.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_x86"
+      },
+      "displayName": "Qt Charts for Android x86",
+      "name": "qt.qt5.5122.qtcharts.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_arm64_v8a"
+      },
+      "displayName": "Qt Data Visualization for Android ARM64-v8a",
+      "name": "qt.qt5.5122.qtdatavis3d.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt Data Visualization for gcc 64-bit",
+      "name": "qt.qt5.5122.qtdatavis3d.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_x86"
+      },
+      "displayName": "Qt Data Visualization for Android x86",
+      "name": "qt.qt5.5122.qtdatavis3d.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_armv7"
+      },
+      "displayName": "Qt Data Visualization for Android ARMv7",
+      "name": "qt.qt5.5122.qtdatavis3d.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_arm64_v8a"
+      },
+      "displayName": "Qt Purchasing for Android ARM64-v8a",
+      "name": "qt.qt5.5122.qtpurchasing.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_x86"
+      },
+      "displayName": "Qt Purchasing for Android x86",
+      "name": "qt.qt5.5122.qtpurchasing.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_armv7"
+      },
+      "displayName": "Qt Purchasing for Android ARMv7",
+      "name": "qt.qt5.5122.qtpurchasing.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt Purchasing for gcc 64-bit",
+      "name": "qt.qt5.5122.qtpurchasing.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt Virtual Keyboard for gcc 64-bit",
+      "name": "qt.qt5.5122.qtvirtualkeyboard.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt WebEngine for Desktop gcc 64-bit",
+      "name": "qt.qt5.5122.qtwebengine.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_arm64_v8a"
+      },
+      "displayName": "Qt Network Authorization for Android ARM64-v8a",
+      "name": "qt.qt5.5122.qtnetworkauth.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt Network Authorization for gcc 64-bit",
+      "name": "qt.qt5.5122.qtnetworkauth.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_x86"
+      },
+      "displayName": "Qt Network Authorization for Android x86",
+      "name": "qt.qt5.5122.qtnetworkauth.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_armv7"
+      },
+      "displayName": "Qt Network Authorization for Android ARMv7",
+      "name": "qt.qt5.5122.qtnetworkauth.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt WebGL Streaming Plugin for gcc 64-bit",
+      "name": "qt.qt5.5122.qtwebglplugin.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_arm64_v8a"
+      },
+      "displayName": "Qt Script for Android ARM64-v8a",
+      "name": "qt.qt5.5122.qtscript.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_x86"
+      },
+      "displayName": "Qt Script for Android x86",
+      "name": "qt.qt5.5122.qtscript.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Qt Script for gcc 64-bit",
+      "name": "qt.qt5.5122.qtscript.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.android_armv7"
+      },
+      "displayName": "Qt Script for Android ARMv7",
+      "name": "qt.qt5.5122.qtscript.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5122.gcc_64"
+      },
+      "displayName": "Desktop gcc 64-bit Debug Information Files",
+      "name": "qt.qt5.5122.debug_info.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.2 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5122.doc.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.2 Deprecated components (QtScript)",
+      "name": "qt.qt5.5122.doc.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for QtWebEngine",
+      "name": "qt.qt5.5122.doc.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.2 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5122.doc.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.2 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5122.doc.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.12.2 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5122.doc.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5122.doc.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.5122.examples.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.2 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.5122.examples.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.2 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.5122.examples.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.2 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.5122.examples.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.2 Deprecated components (QtScript)",
+      "name": "qt.qt5.5122.examples.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for QtWebEngine",
+      "name": "qt.qt5.5122.examples.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.12.2 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.5122.examples.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.598.doc",
+        "2": "qt.qt5.598.examples"
+      },
+      "displayName": "Desktop gcc 64-bit",
+      "name": "qt.qt5.598.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.598.doc",
+        "2": "qt.qt5.598.examples"
+      },
+      "displayName": "Android x86",
+      "name": "qt.qt5.598.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qtcreator",
+        "1": "qt.qt5.598.doc",
+        "2": "qt.qt5.598.examples"
+      },
+      "displayName": "Android ARMv7",
+      "name": "qt.qt5.598.android_armv7"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Sources",
+      "name": "qt.qt5.598.src"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtcharts",
+        "1": "qt.qt5.598.examples.qtcharts"
+      },
+      "displayName": "Qt Charts",
+      "name": "qt.qt5.598.qtcharts"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtdatavis3d",
+        "1": "qt.qt5.598.examples.qtdatavis3d"
+      },
+      "displayName": "Qt Data Visualization",
+      "name": "qt.qt5.598.qtdatavis3d"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtpurchasing",
+        "1": "qt.qt5.598.examples.qtpurchasing"
+      },
+      "displayName": "Qt Purchasing",
+      "name": "qt.qt5.598.qtpurchasing"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtvirtualkeyboard",
+        "1": "qt.qt5.598.examples.qtvirtualkeyboard"
+      },
+      "displayName": "Qt Virtual Keyboard",
+      "name": "qt.qt5.598.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtwebengine",
+        "1": "qt.qt5.598.examples.qtwebengine"
+      },
+      "displayName": "Qt WebEngine",
+      "name": "qt.qt5.598.qtwebengine"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtnetworkauth",
+        "1": "qt.qt5.598.examples.qtnetworkauth"
+      },
+      "displayName": "Qt Network Authorization",
+      "name": "qt.qt5.598.qtnetworkauth"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtremoteobjects",
+        "1": "qt.qt5.598.examples.qtremoteobjects"
+      },
+      "displayName": "Qt Remote Objects (TP)",
+      "name": "qt.qt5.598.qtremoteobjects"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtspeech",
+        "1": "qt.qt5.598.examples.qtspeech"
+      },
+      "displayName": "Qt Speech (TP)",
+      "name": "qt.qt5.598.qtspeech"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.doc.qtscript",
+        "1": "qt.qt5.598.examples.qtscript"
+      },
+      "displayName": "Qt Script (Deprecated)",
+      "name": "qt.qt5.598.qtscript"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.9.8 Documentation",
+      "name": "qt.qt5.598.doc"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools"
+      },
+      "displayName": "Qt 5.9.8 Examples",
+      "name": "qt.qt5.598.examples"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_x86"
+      },
+      "displayName": "Qt Charts for Android x86",
+      "name": "qt.qt5.598.qtcharts.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Charts for gcc 64-bit",
+      "name": "qt.qt5.598.qtcharts.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_armv7"
+      },
+      "displayName": "Qt Charts for Android ARMv7",
+      "name": "qt.qt5.598.qtcharts.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_x86"
+      },
+      "displayName": "Qt Data Visualization for Android x86",
+      "name": "qt.qt5.598.qtdatavis3d.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_armv7"
+      },
+      "displayName": "Qt Data Visualization for Android ARMv7",
+      "name": "qt.qt5.598.qtdatavis3d.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Data Visualization for gcc 64-bit",
+      "name": "qt.qt5.598.qtdatavis3d.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_x86"
+      },
+      "displayName": "Qt Purchasing for Android x86",
+      "name": "qt.qt5.598.qtpurchasing.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_armv7"
+      },
+      "displayName": "Qt Purchasing for Android ARMv7",
+      "name": "qt.qt5.598.qtpurchasing.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Purchasing for gcc 64-bit",
+      "name": "qt.qt5.598.qtpurchasing.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Virtual Keyboard for gcc 64-bit",
+      "name": "qt.qt5.598.qtvirtualkeyboard.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt WebEngine for Desktop gcc 64-bit",
+      "name": "qt.qt5.598.qtwebengine.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_x86"
+      },
+      "displayName": "Qt Network Authorization for Android x86",
+      "name": "qt.qt5.598.qtnetworkauth.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Network Authorization for gcc 64-bit",
+      "name": "qt.qt5.598.qtnetworkauth.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_armv7"
+      },
+      "displayName": "Qt Network Authorization for Android ARMv7",
+      "name": "qt.qt5.598.qtnetworkauth.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Remote Objects for gcc 64-bit",
+      "name": "qt.qt5.598.qtremoteobjects.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_x86"
+      },
+      "displayName": "Qt Remote Objects for Android x86",
+      "name": "qt.qt5.598.qtremoteobjects.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_armv7"
+      },
+      "displayName": "Qt Remote Objects for Android ARMv7",
+      "name": "qt.qt5.598.qtremoteobjects.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_armv7"
+      },
+      "displayName": "Qt Speech for Android ARMv7",
+      "name": "qt.qt5.598.qtspeech.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Speech for gcc 64-bit",
+      "name": "qt.qt5.598.qtspeech.gcc_64"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_x86"
+      },
+      "displayName": "Qt Speech for Android x86",
+      "name": "qt.qt5.598.qtspeech.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_armv7"
+      },
+      "displayName": "Qt Script for Android ARMv7",
+      "name": "qt.qt5.598.qtscript.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.android_x86"
+      },
+      "displayName": "Qt Script for Android x86",
+      "name": "qt.qt5.598.qtscript.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.598.gcc_64"
+      },
+      "displayName": "Qt Script for gcc 64-bit",
+      "name": "qt.qt5.598.qtscript.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.9.8 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.598.doc.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt Remote Objects (Technology Preview)",
+      "name": "qt.qt5.598.doc.qtremoteobjects"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.9.8 Deprecated components (QtScript)",
+      "name": "qt.qt5.598.doc.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for QtWebEngine",
+      "name": "qt.qt5.598.doc.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt Speech (Technology Preview)",
+      "name": "qt.qt5.598.doc.qtspeech"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.9.8 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.598.doc.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.9.8 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.598.doc.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.598.doc.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Documentation for Qt 5.9.8 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.598.doc.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for QtWebEngine",
+      "name": "qt.qt5.598.examples.qtwebengine"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt Networkauth (Technology Preview)",
+      "name": "qt.qt5.598.examples.qtnetworkauth"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.9.8 GPLv3 components (QtDataVisualization)",
+      "name": "qt.qt5.598.examples.qtdatavis3d"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt Speech (Technology Preview)",
+      "name": "qt.qt5.598.examples.qtspeech"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.9.8 Deprecated components (QtScript)",
+      "name": "qt.qt5.598.examples.qtscript"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt SerialBus (Technology Preview)",
+      "name": "qt.qt5.598.examples.qtserialbus"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.9.8 GPLv3 components (QtCharts)",
+      "name": "qt.qt5.598.examples.qtcharts"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt Remote Objects (Technology Preview)",
+      "name": "qt.qt5.598.examples.qtremoteobjects"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.9.8 GPLv3 components (QtPurchasing)",
+      "name": "qt.qt5.598.examples.qtpurchasing"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Examples for Qt 5.9.8 GPLv3 components (QtVirtualKeyboard)",
+      "name": "qt.qt5.598.examples.qtvirtualkeyboard"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Creator 4.10.2",
+      "name": "qt.tools.qtcreator"
+    },
+    {
+      "dependencies": {
+        "0": "qt.license.gplv3except"
+      },
+      "displayName": "Qt 3D Studio 2.5.0",
+      "name": "qt.tools.qt3dstudio"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt 3D Studio OpenGL Runtime 2.5.0 for Qt 5.12.5",
+      "name": "qt.tools.qt3dstudioopenglruntime.5125"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Installer Framework 3.1",
+      "name": "qt.tools.ifw.31"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Installer Framework 3.0",
+      "name": "qt.tools.ifw.30"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Installer Framework 2.0",
+      "name": "qt.tools.ifw.20"
+    },
+    {
+      "dependencies": {},
+      "displayName": "OpenSSL 1.1.1c Toolkit",
+      "name": "qt.tools.openssl"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Maintenance Tool",
+      "name": "qt.tools.maintenance"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Creator 4.10.2 Src",
+      "name": "qt.tools.qtcreator.src"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt Telemetry plugin",
+      "name": "qt.tools.qtcreator.telemetry"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_arm64_v8a"
+      },
+      "displayName": "Android ARM64-v8a",
+      "name": "qt.tools.qt3dstudioopenglruntime.5125.android_arm64_v8a"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_armv7"
+      },
+      "displayName": "Android ARMv7",
+      "name": "qt.tools.qt3dstudioopenglruntime.5125.android_armv7"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.android_x86"
+      },
+      "displayName": "Android x86",
+      "name": "qt.tools.qt3dstudioopenglruntime.5125.android_x86"
+    },
+    {
+      "dependencies": {
+        "0": "qt.qt5.5125.gcc_64"
+      },
+      "displayName": "GCC 64-bit",
+      "name": "qt.tools.qt3dstudioopenglruntime.5125.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Qt 3D Studio OpenGL Runtime 2.5.0 examples",
+      "name": "qt.tools.qt3dstudioopenglruntime.5125.examples"
+    },
+    {
+      "dependencies": {
+        "0": "qt.tools.qt3dstudioopenglruntime.5125.gcc_64"
+      },
+      "displayName": "Desktop gcc 64-bit Debug Information Files",
+      "name": "qt.tools.qt3dstudioopenglruntime.5125.debug_info.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "OpenSSL binaries",
+      "name": "qt.tools.openssl.gcc_64"
+    },
+    {
+      "dependencies": {},
+      "displayName": "OpenSSL source code",
+      "name": "qt.tools.openssl.src"
+    },
+    {
+      "dependencies": {},
+      "displayName": "Maintenance Tool icons",
+      "name": "qt.tools.maintenance.icons"
+    }
+  ]
+}
