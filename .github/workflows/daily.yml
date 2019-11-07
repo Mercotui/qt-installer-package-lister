@@ -12,8 +12,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-      with:
-        ref: release
     - name: Npm Install
       run: npm install
     - name: Get Package List
@@ -23,5 +21,6 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'release'
+        rebase: 'true'
         commit-message: 'Automated Daily List Update'
         files: qt_package_list.json
