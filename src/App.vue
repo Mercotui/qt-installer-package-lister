@@ -1,18 +1,18 @@
 <template>
   <v-app>
     <v-content>
-      <HelloWorld/>
+      <PackageList/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import PackageList from './components/PackageList';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    PackageList,
   },
   data: () => ({
     //
