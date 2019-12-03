@@ -5,17 +5,16 @@
     <v-card-title>
       Qt Packages
       <v-spacer></v-spacer>
+      Updated on: {{date_updated}}
     </v-card-title>
-    <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details></v-text-field>
-
-    <span>Selected Packages: {{ selectedNames }}</span>
+    <v-text-field v-model="selectedNames" append-icon="mdi-content-copy" readonly solo single-line></v-text-field>
+    <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details></v-text-field>
 
     <v-data-table v-model="selected"
       :search="search"
       :headers="headers"
       :items="packages"
       :loading="loading"
-      items-per-page=20
       append-icon="search"
       single-expand
       item-key="name"
@@ -48,7 +47,8 @@ export default {
           value: 'data-table-expand'
         }
       ],
-      packages: []
+      packages: [],
+      date_updated: ''
     }
   },
   mounted() {
@@ -56,6 +56,7 @@ export default {
     axios.get("../qt_package_list.json")
     .then(response => {
       this.packages = response.data.packages;
+      this.date_updated = new Date(response.data.date).toLocaleDateString("nl-NL");
       this.loading = false;
     })
   },
