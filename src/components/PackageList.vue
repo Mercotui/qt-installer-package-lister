@@ -1,14 +1,39 @@
 <template>
 <v-container>
-  <v-card>
-
+  <v-card class="pa-auto">
     <v-card-title>
       Qt Packages
       <v-spacer></v-spacer>
       Updated on: {{date_updated}}
     </v-card-title>
-    <v-text-field v-model="selectedNames" append-icon="mdi-content-copy" readonly solo single-line></v-text-field>
-    <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details></v-text-field>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-text-field
+          v-on="on"
+          class="px-4"
+          placeholder="Selected Packages"
+          v-model="selectedNames"
+          append-icon="mdi-content-copy"
+          readonly
+          solo
+          single-line
+          @click="selectedNamesFocused"
+          @click:append="selectedNamesFocused"
+        >
+        </v-text-field>
+      </template>
+      <span>Click to Copy</span>
+    </v-tooltip>
+    <v-snackbar
+      v-model="copiedBar"
+      top
+      color="success"
+      timeout=1000
+    >
+          Copied to Clipboard!
+    </v-snackbar>
+
+    <v-text-field class="px-4 mb-4" v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details></v-text-field>
 
     <v-data-table v-model="selected"
       :search="search"
@@ -21,19 +46,27 @@
       show-select
       show-expand
       class="elevation-1">
+      <template v-slot:expanded-item="{ headers, item }">
+        <td :colspan="headers.length">
+          Dependencies:
+          <pre>{{item.dependencies}}</pre>
+        </td>
+      </template>
     </v-data-table>
-
   </v-card>
 </v-container>
 </template>
 
 <script>
 import axios from 'axios';
+import copy from 'copy-text-to-clipboard';
+
 export default {
   name: "PackageList",
   data() {
     return {
       loading: true,
+      copiedBar: false,
       search: '',
       selected: [],
       headers: [{
@@ -66,6 +99,10 @@ export default {
     }
   },
   methods: {
+    selectedNamesFocused:function() {
+      copy(this.selectedNames);
+      this.copiedBar = true;
+    }
   }
 }
 </script>
