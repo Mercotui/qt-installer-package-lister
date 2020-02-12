@@ -1,4 +1,4 @@
-name: Daily Update
+name: Daily Package Scrape
 
 on:
   schedule:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
       with:
-        ref: release
+        ref: prerelease
     - name: Npm Install
       run: npm install
     - name: Get Package List
@@ -22,7 +22,7 @@ jobs:
       uses: github-actions-x/commit@v2.2
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'release'
         rebase: 'true'
+        push-branch: 'release'
         commit-message: 'Automated Daily List Update'
         files: qt_package_list.json
