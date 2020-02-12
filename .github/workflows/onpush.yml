@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Install Dependencies
-      run: sudo apt-get -y instal libxkbcommon-x11-0
+      run: sudo apt-get -y install libxkbcommon-x11-0
     - name: Get Package List
       run: node ./package_scraper/package_scraper.js
     - name: Store
