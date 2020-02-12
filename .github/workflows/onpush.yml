@@ -15,7 +15,7 @@ jobs:
     - name: Get Package List
       run: node ./package_scraper/package_scraper.js
     - name: Store
-    - uses: actions/upload-artifact@master
+      uses: actions/upload-artifact@master
       with:
         name: QT Package List
         path: qt_package_list.json
