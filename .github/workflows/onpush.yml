@@ -10,8 +10,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - name: Install Dependencies
+    - name: Install System Dependencies
       run: sudo apt-get -y install libxkbcommon-x11-0
+    - name: Install NPM Dependencies
+      run: npm install
     - name: Get Package List
       run: node ./package_scraper/package_scraper.js
     - name: Store
